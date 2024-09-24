@@ -336,7 +336,7 @@
 <!-- End Reviews Section -->
 
 <!-- Floating Contact Bar -->
-<div style="position: fixed; bottom: 20px; right: 20px; background-color: #25D366; color: white; border-radius: 30px; padding: 10px 15px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); z-index: 1000; display: flex; align-items: center; cursor: pointer;" id="whatsapp-contact">
+<div style="position: fixed; bottom: 20px; right: 20px; background-color: #25D366; color: white; border-radius: 30px; padding: 10px 15px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); z-index: 1000; display: flex; align-items: center; cursor: pointer; max-width: 90%;" id="whatsapp-contact">
    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 30px; height: 30px; margin-right: 10px;">
    <a href="https://wa.me/9779766935925" style="text-decoration: none; color: white; font-size: 16px; font-weight: bold;">Contact Us Directly</a>
 </div>
@@ -350,6 +350,8 @@
          right: 10px;  /* Bring it closer to the right edge */
          padding: 8px 10px; /* Reduce padding */
          border-radius: 25px; /* Make it a little smaller */
+         max-width: 80%; /* Set a max-width to avoid it going off-screen */
+         margin-right: 5px; /* Add margin to prevent it from touching the edge */
       }
 
       /* WhatsApp icon size reduction for mobile */
@@ -365,6 +367,7 @@
       }
    }
 </style>
+
 
 
      <!-- section -->
